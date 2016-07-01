@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from TwitterAPI import TwitterAPI
+
 import tweepy
 import glob
 import random

@@ -51,7 +51,7 @@ def ogi():
 
                 abuzer = "%s\n%s\n%s\n%s ///ollybot" % (euro,a,pound,date)
                 print abuzer
-                img = Image.open("images/ogul.jpg")
+                img = Image.open("ogul.jpg")
                 draw = ImageDraw.Draw(img)
 #font = ImageFont.truetype(<font-file>, <font-size>)
                 font = ImageFont.truetype("ziyvercan.otf", 24)

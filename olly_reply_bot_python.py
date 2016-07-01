@@ -56,7 +56,7 @@ def ogi():
 #font = ImageFont.truetype(<font-file>, <font-size>)
                 font = ImageFont.truetype("ziyvercan.otf", 24)
 # draw.text((x, y),"zarbohan",(r,g,b))
-                draw.text((300, 220),abuzer + "\n" + a,font=font, fill="red")
+                draw.text((300, 220),abuzer + "\n" + a,font=font, fill="green")
                 img.save('sample-out1.jpg')
                 file = open('sample-out1.jpg', 'rb')
                 data = file.read()
